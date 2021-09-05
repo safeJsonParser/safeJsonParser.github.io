@@ -1,49 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Json Parser</title>
+  <meta charset="UTF-8">
+  <title>Json Parser</title>
 
-    <!-- meta tag -->
-    <meta name="author" content="TG">
-    <meta name="description" content="Analyze JSON string as you type with an online Javascript parser, featuring tree view and syntax highlighting. Processing is quick and safe with no data send to server.">
+  <!-- meta tag -->
+  <meta name="author" content="TG">
+  <meta name="description"
+        content="Analyze JSON string as you type with an online Javascript parser,
+                 featuring tree view and syntax highlighting.
+                 Processing is quick and safe with no data send to server."
+  >
 
-    <!--    OGP  -->
-    <meta property="og:locale" content="ja_JP">
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="https://thienthansao29.github.io">
-    <meta property="og:title" content="Json Parse quick and safe ">
-    <meta property="og:description" content="Analyze JSON string as you type with an online Javascript parser, featuring tree view and syntax highlighting. Processing is quick and safe with no data send to server.">
-    <meta property="og:image" content="https://safejsonparse.github.io/image/konsan134.jpg">
+  <!--    OGP  -->
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://giangntbk2010.github.io/">
+  <meta property="og:title" content="Json Parse quick and safe ">
+  <meta property="og:description"
+        content="Analyze JSON string as you type with an online Javascript parser,
+                 featuring tree view and syntax highlighting.
+                 Processing is quick and safe with no data send to server."
+  >
+  <meta property="og:image" content="https://safejsonparse.github.io/image/konsan134.jpg">
 
-    <!--    twitter card -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:title" content="Json Parse quick and safe ">
-    <meta property="twitter:description" content="Analyze JSON string as you type with an online Javascript parser, featuring tree view and syntax highlighting. Processing is quick and safe with no data send to server.">
-    <meta property="twitter:image" content="https://safejsonparse.github.io/image/konsan134.jpg">
+  <!--    twitter card -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Json Parse quick and safe ">
+  <meta property="twitter:description"
+  <!-- meta tag -->
+  <meta name="author" content="TG">
+  <meta name="description"
+        content="Analyze JSON string as you type with an online Javascript parser,
+                 featuring tree view and syntax highlighting.
+                 Processing is quick and safe with no data send to server."
+  >
 
-    <!--    keywords -->
-    <meta name="keywords" content="json parse, json, quick, save, not send data to server, json parser online">
-    <!--    end metatag -->
+  <meta property="twitter:image" content="https://safejsonparse.github.io/image/konsan134.jpg">
 
-    <link rel="stylesheet" href="script/css/index.css">
-    <link rel="shortcut icon" href="image/icon/favicon.ico" type="image/x-icon">
-    <script src="lib/js/jquery-3.1.0.min.js"></script>
-    <script src="script/js/index.js"></script>
+  <!--    keywords -->
+  <meta name="keywords" content="json parse, json, quick, save, not send data to server, json parser online">
+  <!--    end meta tag -->
+
+  <link rel="stylesheet" href="script/css/index.css">
+  <link rel="shortcut icon" href="image/icon/favicon.ico" type="image/x-icon">
+  <script src="lib/js/jquery-3.1.0.min.js"></script>
+  <script src="script/js/index.js"></script>
 </head>
 <body>
 <div id="toolbar">
-    <button class="button button1">See Result »</button>
+  <button class="button button1" id="seeResultButton">See Result »</button>
 </div>
-<div class="container">
-    <textarea id="jsonText" class="col col1" autofocus></textarea>
 
-    <div id="jsonParse" class="col col2">
-    	<p>&nbsp;Result...</p>
-    </div>
+<div class="container">
+  <textarea
+    id="jsonFormat"
+    class="col col1"
+    placeholder="Enter text as json format..."
+    autofocus
+  ></textarea>
+
+  <div id="jsonParser" class="col col2">
+    <p>&nbsp;Json Parser Result...</p>
+  </div>
 </div>
 <div class="footer">
-	<p>Edited by TG & Dinh Van Tiep</p>
+  <p>Edited by TG</p>
 </div>
 </body>
 </html>
