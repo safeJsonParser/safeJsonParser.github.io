@@ -1,83 +1,89 @@
-body{
-    margin: 0;
-    font-size: 100%;
-    background-color: aliceblue;
-    font-family: 'DejaVu Sans Mono','Courier New',monospace;
-    font-size: 12px;
+body {
+  margin: 0;
+  font-size: 100%;
+  background-color: #f0f3f3;
+  font-family: 'DejaVu Sans Mono', 'Courier New', monospace;
+  font-size: 12px;
 }
 
 .button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 2px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 2px;
 }
 
-ul{
-    list-style-type: none;
+ul {
+  list-style-type: none;
+  padding-inline-start: 15px;
 }
 
 .button1 {
-    padding: 10px 24px;
-    margin-left: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  padding: 10px 24px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.container{
-    display: flex;
-    flex-direction: row;
-    min-height: 85vh;
+.container {
+  display: flex;
+  flex-direction: row;
+  min-height: 85vh;
 }
-.col{
-    border: 1.3px solid;
-    border-radius: 3px;
-    /*min-height: 600px;*/
-    margin: 5px;
+
+.col {
+  border: 1px solid;
+  border-radius: 3px;
+  /*min-height: 600px;*/
+  margin: 5px;
 }
 
 .col1 {
-    width: 40%;
-    margin-right: 15px;
+  width: 40%;
+  margin-right: 15px;
 }
 
 .col2 {
-    flex-grow: 1;
-    background-color: white;
+  flex-grow: 1;
+  background-color: white;
+  max-width: 60%;
 }
 
-.property{
-    color: blue;
+.property {
+  color: blue;
 }
 
 li.dropdown ul {
-    display : display;
 }
 
-li.dropdown span.ulExt{
-    color: red;
-    display: none;
+li.dropdown ul {
+  display: display;
 }
 
-span.cursor{
-    cursor: pointer;
+li.dropdown span.ulExt {
+  color: red;
+  display: none;
 }
 
-p{
-    color: red;
+span.cursor {
+  cursor: pointer;
 }
 
-.toggleColor{
-    color: red;
+p {
+  color: red;
 }
 
-.footer{
-    bottom: 5px;
-    text-align: center;
+.toggleColor {
+  color: red;
+}
+
+.footer {
+  bottom: 5px;
+  text-align: center;
 }
